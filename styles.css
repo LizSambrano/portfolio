@@ -1,26 +1,35 @@
+/*Color Palette:
+Black: #030301
+Khaki: #b7ad99
+Hot Pink: #ff4365
+Mint: #00d9c0
+Ivory White: #fffff3
+*/
 ul{
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 a{
     text-decoration: none;
 }
 a:link {
-    color: white;
+    color: #fffff3;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited{
-    color: white;
+    color: #fffff3;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover{
-    color:red;
+    color: #00d9c0;
     background-color:transparent;
     text-decoration: none;
 }
 a:active{
-    color:white;
+    color:#fffff3;
     background-color: transparent;
     text-decoration:none;
 
@@ -29,8 +38,21 @@ a:active{
     display: grid;
     grid-template-columns: 2fr 2fr;
     background-color: black;
-    color: white;
+    color: #fffff3;
 }
 .nav-bar:hover{
     cursor:pointer;
+}
+.about-section{
+background-color: #b7ad99;
+padding: 30px;
+}
+.learning{
+    background-color: #ff4365;
+    padding: 30px;
+}
+.homepage-image{
+    background-color: white;
+    border: 2px solid black;
+    padding: 200px;
 }
