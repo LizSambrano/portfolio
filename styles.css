@@ -7,8 +7,6 @@ Ivory White: #fffff3
 */
 ul{
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 a{
     text-decoration: none;
@@ -35,8 +33,7 @@ a:active{
 
 }
 .nav-bar{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    display: flex;
     background-color: black;
     color: #fffff3;
 }
@@ -55,4 +52,6 @@ padding: 30px;
     background-color: white;
     border: 2px solid black;
     padding: 200px;
+}
+.home-alignment{
 }
