@@ -10,6 +10,8 @@ body{
 }
 ul{
     list-style: none;
+    display:flex;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
@@ -36,7 +38,9 @@ a:active{
 
 }
 .nav-bar{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     background-color: black;
     color: #fffff3;
 }
