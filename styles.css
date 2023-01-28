@@ -43,6 +43,7 @@ a:active{
     align-items: center;
     background-color: black;
     color: #fffff3;
+    padding: 0px 15px;
 }
 .nav-bar:hover{
     cursor:pointer;
