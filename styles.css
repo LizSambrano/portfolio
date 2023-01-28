@@ -44,6 +44,7 @@ a:active{
     background-color: black;
     color: #fffff3;
     padding: 0px 15px;
+    font-family:'Permanent Marker',serif;
 }
 .nav-bar:hover{
     cursor:pointer;
