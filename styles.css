@@ -5,8 +5,9 @@ Hot Pink: #ff4365
 Mint: #00d9c0
 Ivory White: #fffff3
 */
-body{
-    margin: auto 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 ul{
     list-style: none;
