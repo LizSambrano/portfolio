@@ -9,6 +9,7 @@ Ivory White: #fffff3
     margin: 0;
     padding: 0;
 }
+/*Navigation Bar*/
 ul{
     list-style: none;
     display:flex;
@@ -55,22 +56,31 @@ a:active{
 .nav-bar:hover{
     cursor:pointer;
 }
-.about-section{
-background-color: #b7ad99;
+/*Homepage header and intro paragraph*/
+.introduction{
+/*background-color: #b7ad99;*/
+background-color: #fffff3;
 padding: 30px;
 }
+/*Sidebar with links to learning resources*/
 .learning{
     background-color: #ff4365;
     padding: 30px;
 }
-/*.homepage-image{
+/*
+Use if decide to have image smaller and centered
+.homepage-image{
     background-color: white;
     padding: 200px;
     display:grid;
     height: 100%;
 }*/
+
+/* Align the main homepage content*/
 .home-alignment{
+
 }
+/*Upper left side of webpage, inside nav-bar*/
 .logo{
     display:flex;
     margin-right:auto;
@@ -91,4 +101,23 @@ h1{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: static;
+}
+h2{
+    font-family:'Permanent Marker',serif;
+    font-size: 2em;
+    text-align: center;
+}
+.about{
+    /*background-color: #b7ad99;*/
+background-color: #fffff3;
+padding: 30px;
+}
+.about ul{
+    font-size:1em;
+    display: block;
+    line-height: 2em;
+}
+.about h3{
+    line-height: 2em;
+    font-size: 2em;
 }
