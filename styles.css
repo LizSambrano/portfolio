@@ -122,11 +122,13 @@ padding: 30px;
     font-size:1em;
     display: block;
     line-height: 2em;
+    text-transform: uppercase;
 }
 .about h3{
     text-transform: uppercase;
     line-height: 2em;
     font-size: 2em;
+    font-family:'Permanent Marker',serif;
 }
 section.introduction{
     margin: -10em 0 0 0;
@@ -137,6 +139,30 @@ section.introduction{
 .about ul{
     list-style: square;
 }
-.about .hobbies-li li{
+.about .list-in-list li{
     list-style-position: inside;
+}
+.projects-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.projects h2{
+    padding-top: 20px;
+}
+.project-box >img{
+    width: 100%;
+}
+.project-box{
+    background-color: #00d9c0;
+    padding: 40px;
+    margin: 20px;
+}
+.footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #b7ad99;
+    padding: 10px;
+    font-family:'Roboto',serif;
 }
