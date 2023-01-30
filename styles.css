@@ -123,21 +123,21 @@ padding: 30px;
     display: block;
     line-height: 2em;
     text-transform: uppercase;
+    text-align: center;
 }
 .about h3{
     text-transform: uppercase;
     line-height: 2em;
     font-size: 3em;
     font-family:'Permanent Marker',serif;
+    text-align: center;
+    margin-bottom: 20px;
 }
 section.introduction{
     margin: -10em 0 0 0;
 }
 .home-font{
     font-family:'Roboto',serif;
-}
-.about ul{
-    list-style: square;
 }
 .about .list-in-list li{
     list-style-position: inside;
@@ -169,5 +169,5 @@ section.introduction{
 }
 .home-middle-alignment{
     display: grid;
-    grid-template-column: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
