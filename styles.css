@@ -167,6 +167,7 @@ section.introduction{
     background-image: linear-gradient(#ff4365, #00d9c0, #000000);
     padding: 40px;
     margin: 20px;
+    box-shadow: 10px 5px 15px black;
 }
 .footer{
     text-align: center;
