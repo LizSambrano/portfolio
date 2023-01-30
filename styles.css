@@ -148,7 +148,7 @@ section.introduction{
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 .projects h2{
-    padding-top: 20px;
+    padding-top: 32px;
 }
 .project-box >img{
     width: 100%;
