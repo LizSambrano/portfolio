@@ -167,3 +167,7 @@ section.introduction{
     padding: 20px;
     font-family:'Roboto',serif;
 }
+.home-middle-alignment{
+    display: grid;
+    grid-template-column: 2fr 1fr;
+}
