@@ -114,8 +114,8 @@ h2{
     padding-bottom: 1em;
 }
 .about{
-    /*background-color: #b7ad99;*/
-background-color: #fffff3;
+    background-color: #b7ad99;
+    /*background-color: #fffff3;*/
 padding: 30px;
 }
 .about ul{
@@ -127,7 +127,7 @@ padding: 30px;
 .about h3{
     text-transform: uppercase;
     line-height: 2em;
-    font-size: 2em;
+    font-size: 3em;
     font-family:'Permanent Marker',serif;
 }
 section.introduction{
@@ -154,7 +154,8 @@ section.introduction{
     width: 100%;
 }
 .project-box{
-    background-color: #00d9c0;
+    /*background-color: #00d9c0;*/
+    background-image: linear-gradient(#ff4365, #00d9c0, #000000);
     padding: 40px;
     margin: 20px;
 }
@@ -163,6 +164,6 @@ section.introduction{
     text-transform: uppercase;
     font-weight: bold;
     background-color: #b7ad99;
-    padding: 10px;
+    padding: 20px;
     font-family:'Roboto',serif;
 }
