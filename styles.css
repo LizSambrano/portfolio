@@ -59,7 +59,10 @@ a:active{
 /*Homepage header and intro paragraph*/
 .introduction{
 /*background-color: #b7ad99;*/
-background-color: #fffff3;
+/*background-color: #fffff3;*/
+/*background-color: #ff4365;*/
+background-color: #000000;
+color: #fffff3;
 padding: 30px;
 }
 .introduction p{
@@ -70,8 +73,12 @@ padding: 30px;
 }
 /*Sidebar with links to learning resources*/
 .learning{
-    background-color: #ff4365;
+    /*background-color: #ff4365;*/
+    background-color:#00d9c0;
     padding: 30px;
+    margin-right: 20px;
+    border: 3px solid black;
+    margin-top:30px;
 }
 /*
 Use if decide to have image smaller and centered
@@ -115,9 +122,10 @@ h2{
     padding-bottom: 1em;
 }
 .about{
-    background-color: #b7ad99;
+    background-color: white;
     /*background-color: #fffff3;*/
 padding: 30px;
+text-align:center;
 }
 .about ul{
     font-size:1em;
