@@ -159,6 +159,11 @@ section.introduction{
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
+.projects-container span{
+    font-size:3em;
+    font-weight: bold;
+    margin-left: 1em;
+}
 .projects h2{
     padding-top: 32px;
     font-size: 3em;
