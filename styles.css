@@ -177,11 +177,24 @@ section.introduction{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #b7ad99;
+    /*background-color: #b7ad99;*/
+    background-color: #f2f2f2;
+    box-shadow: 10px 5px 15px #f2f2f2;
     padding: 20px;
     font-family:'Permanent Marker','Roboto',serif;
 }
 .home-middle-alignment{
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
+    margin-right: 2em;
+}
+.fa-brands{
+    background-color: black;
+    border: solid 4px black;
 }
