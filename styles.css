@@ -197,4 +197,13 @@ section.introduction{
 .fa-brands{
     background-color: black;
     border: solid 4px black;
+
+}
+@media only screen and (max-width: 1200px) {
+    .home-middle-alignment{
+       display: flex;
+       justify-content: center;
+       flex-flow: row wrap;
+    }
+    
 }
