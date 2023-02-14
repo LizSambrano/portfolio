@@ -131,22 +131,25 @@ text-align:center;
     font-size:1em;
     display: block;
     line-height: 2em;
-    text-transform: uppercase;
     text-align: center;
 }
 .about h3{
     text-transform: uppercase;
     line-height: 2em;
     font-size: 3em;
-    font-family:'Permanent Marker',serif;
     text-align: center;
     margin-bottom: 20px;
+}
+.about h4{
+    margin-top: 1em;
+    font-size: 2em;
+    padding-bottom:10px;
 }
 section.introduction{
     margin: -10em 0 0 0;
 }
 .home-font{
-    font-family:'Roboto',serif;
+    font-family:'Permanent Marker','Roboto',serif;
 }
 .about .list-in-list li{
     list-style-position: inside;
@@ -158,6 +161,7 @@ section.introduction{
 }
 .projects h2{
     padding-top: 32px;
+    font-size: 3em;
 }
 .project-box >img{
     width: 100%;
@@ -175,7 +179,7 @@ section.introduction{
     font-weight: bold;
     background-color: #b7ad99;
     padding: 20px;
-    font-family:'Roboto',serif;
+    font-family:'Permanent Marker','Roboto',serif;
 }
 .home-middle-alignment{
     display: grid;
