@@ -4,9 +4,11 @@ This project was created as a way to display my current projects, so that others
 * This portfolio will be updated as I advance in my knowledge of front-end web development.
 
 ## Built With
-* HTML
-* CSS
-* Font Awesome Icons linked with Javasript
+* HTML5
+* CSS3
+* Flexbox
+* Grid
+* Font Awesome Icons linked with Javascript
 
 ## Contact
 Elizabeth Sambrano: lizsambrano16@outlook.com
