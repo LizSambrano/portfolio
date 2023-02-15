@@ -12,6 +12,7 @@ This project was created as a way to display my current projects, so that others
 
 ## Contact
 Elizabeth Sambrano: lizsambrano16@outlook.com
+Link to Live Site: https://lizsambrano.github.io/portfolio/
 
 ## Acknowledgements
 * Font Awesome (For making it easy to add in free icons)
